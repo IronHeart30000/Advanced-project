@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+/*Signeture Font*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+/*Signeture Font*/
+
+* {
+    font-family: 'Cairo', sans-serif;
+    padding: 0;
+    margin: 0;
+    outline: none !important;
+}
+
+::selection {
+    background: #fd9d5a;
+    color: aliceblue !important;
+}
+
+
+.ContactUsSocialSectionBtns button:hover img {
+    filter: grayscale(1) invert(1) brightness(10.5);
+}
+
+.CurrentLangArabic .HomeEventsItem button {
+    direction: rtl;
+}
+
+.CurrentLangArabic .HomeEventsItem button i {
+    margin-left: 4px;
+}
+
+#CreativeSection {
+    background: whitesmoke;
+    position: relative;
+    padding-top: 0;
+    z-index: 99;
+}
+
+#CreativeSection .PartnersHeader {
+}
+
+.CreativeFormProduction {
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+}
+
+.CreativeSection {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    align-items: start;
+}
+
+.CreativeFormProduction h1 {
+    display: block;
+    margin: 0 0;
+    width: fit-content;
+    font-size: 55px;
+    font-weight: bold;
+    color: #343434;
+    min-width: 555px;
+}
+
+.CreativeFormProduction p {
+    display: block;
+    margin: 26px auto 0;
+    width: 100%;
+    font-size: 17px;
+}
+
+.CreativeFormGH {
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+}
+
+.CreativeFormRow {
+    display: block;
+    margin: 21px auto;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+}
+
+.CreativeFormRow label {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.CreativeFormRowInputHolder {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border: solid 1px #c7c7c7;
+    height: 40px;
+    background: white;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.CreativeFormRowInputHolder input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    padding: 1px 17px;
+    font-size: 12px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.CreativeFormRowInputHolder input::-webkit-outer-spin-button,
+.CreativeFormRowInputHolder input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.CreativeFormRowInputHolder select {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: none;
+    border-right: dashed 1px #d5d5d5;
+    height: 100%;
+    font-size: 11px;
+    width: 20%;
+    padding: 1px 6px;
+    font-weight: bold;
+    color: #626262;
+    cursor: pointer;
+}
+
+.CreativeFormRowInputHolder g {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #94679759;
+    padding: 1px 14px;
+}
+
+.CreativeFormRow textarea {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border: solid 1px #c7c7c7;
+    height: 45px;
+    background: white;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 10px 17px;
+    font-size: 12px;
+    min-height: 65px;
+    max-height: 120px !important;
+}
+
+.SendIdeaSubmit {
+    position: absolute;
+    left: 10%;
+    bottom: 28px;
+    width: 80%;
+    padding: 11px 1px;
+    border: none;
+    background: #e3b052;
+    color: aliceblue;
+    border-radius: 1000px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 300ms;
+}
+
+.SendIdeaSubmit i {
+    margin: 0px 7px;
+}
+
+.CreativeFormMobile {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.CreativeFormGHInner {
+    display: block;
+    margin: -168px auto -90px;
+    width: 450px;
+    max-width: 100%;
+    position: relative;
+    aspect-ratio: 1/1.9;
+    overflow: hidden;
+    min-height: 780px;
+}
+
+
+.CreativeFormGHInner #form {
+    position: absolute;
+    left: 4%;
+    top: 2%;
+    width: 92%;
+    height: 96%;
+    background: #1e171b;
+    z-index: 0;
+    border-radius: 36px;
+    padding: 54px 29px;
+    overflow-y: auto;
+    padding-top: 191px;
+}
+
+
+.CreativeFormRowInputHolder input[type=number] {
+    padding-left: 22%;
+    -moz-appearance:textfield;
+}
+
+.CreativeFormRowInputHolder select:hover {
+    background: #f1f1f1;
+}
+
+.CreativeFormBanner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 260px;
+    box-shadow: inset -1px -20px 47px 8px #c7c7c7;
+    filter: hue-rotate(396deg) brightness(115%) contrast(86%);
+}
+
+.CreativeFormBannerBG {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+    height: 100%;
+    z-index: -3;
+    filter: brightness(65%);
+}
+
+.CreativeFormProductionInner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.CreativeFormBannerSM {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    position: absolute;
+    left: 9%;
+    bottom: 0;
+    height: 77%;
+    filter: drop-shadow(4px 1px 37px aliceblue);
+    transform: translatey(0px);
+    -webkit-animation: TVLayer 10s ease-in-out infinite;
+    animation: TVLayer 10s ease-in-out infinite;
+    z-index: -2;
+}
+
+
+.CreativeFormBannerLamb {
+    position: absolute;
+    right: 24%;
+    top: 13%;
+    width: auto;
+    height: 43px;
+    z-index: -1;
+    transform: rotate(45deg);
+    opacity: 0.8;
+}
+
+
+.SendIdeaSubmit:hover {
+    background: #70427d;
+}
+
+.CreativeFormRow label u {
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.IdeaAttachmentBtn {
+    display: block;
+    margin: 4px auto 7px;
+    width: 99%;
+    color: aliceblue;
+    padding: 8px 2px;
+    background: #7f67a5;
+    font-weight: bold;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+.IdeaAttachmentBtn i {
+    margin: 0 5px;
+}
+
+.CreativeFormProduction {
+}
+
+.CreativeFormProductionInnerContent {
+    display: block;
+    margin: 7% auto 0;
+    width: 90%;
+}
+
+.CreativeFormProduction h1 u {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #e3b052;
+    font-size: 67px;
+}
+
+
+.IdeaFileAttached {
+    background: #52994d;
+}
+
+.CreativeFormRow span {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: #e3b052;
+    font-size: 11px;
+}
+
+.CreativeSectionEdge {
+    position: absolute;
+    left: 0;
+    top: -65px;
+    width: 100%;
+    z-index: 0;
+    background: whitesmoke;
+    height: 174px;
+    transform: rotate(1deg);
+    /* margin-top: 300px; */
+}
+
+.CreativeFormProductionInnerContent h1 u i {
+    font-size: 47px;
+    vertical-align: unset;
+    position: relative;
+    bottom: 8px;
+    color: #e3b052;
+    transform: translatey(0px);
+    -webkit-animation: LightIdea 3s ease-in-out infinite;
+    animation: LightIdea 3s ease-in-out infinite;
+    transition: 300ms;
+}
+
+
+.CurrentLangArabic .CreativeFormProductionInnerContent {
+    text-align: right;
+    direction: rtl;
+}
+
+.CurrentLangArabic .CreativeFormRow {
+    text-align: right;
+}
+
+.CurrentLangArabic .CreativeFormRow input {
+    text-align: right;
+}
+
+.CurrentLangArabic .CreativeFormRow g {
+    right: unset;
+    left: 0;
+}
+
+
+.CurrentLangArabic .CreativeFormRow span {
+    direction: rtl;
+}
+
+.ContactUsPapperCover {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    aspect-ratio: 1/0.3;
+    overflow: hidden;
+    background: #666666;
+}
+
+.ContactUsPapperCover video {
+    position: absolute;
+    left: 0;
+    top: -43%;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    z-index: 0;
+}
+
+
+.ContactUsPapperCoverInner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: #0000007a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.ContactUsPapperCoverDiv {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.ContactUsPapperCoverDiv h1 {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 125px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ContactUsPapper {
+}
+
+#AbputUsPage {
+    background-color: #ffffff47;
+    padding-bottom: 70px;
+    padding-top: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ContactUsPapperIntroduction {
+}
+
+.ContactUsPapperIntroduction h3 {
+    display: block;
+    margin: 50px auto 0;
+    width: 100%;
+    font-weight: bold;
+    color: #fd9d5a;
+    font-size: 33px;
+}
+
+.ContactUsPapperIntroduction p {
+    display: block;
+    margin: 26px auto;
+    width: 100%;
+    font-size: 20px;
+    color: #646464;
+}
+
+
+
+
+
+@keyframes CarDriven {
+    0% {
+        box-shadow: -25px 26px 1px 1px #0000008c;
+    }
+    50% {
+        box-shadow: -55px 55px 1px 1px #0000008c;
+    }
+    100% {
+        box-shadow: -25px 26px 1px 1px #0000008c;
+    }
+}
+
+
+.VideoGameTopScore li span u:first-child {
+}
+
+.GalleryRotatedItemTrigger {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+            
+    .BannerRightInner h1 span {
+        font-size: 33%;
+    }
+    .BannerRightInner h1 span .hy{
+        display: none;
+        width: 50%;
+        font-size: 20%;
+    }
+    
+    .CreativeFormBanner {
+        margin: 100px -230px -90px;
+        width: 450px;
+        max-width: 300%;
+    }
+    .CreativeFormProduction h1 {
+        font-size: 25px;
+    }
+    .BannerRightInner h1 u {
+    line-height: 60px;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 70%;
+    top: 50px;
+    right: 230px;
+    }
+    .Xtract {
+        position: relative;
+        left: 80px;
+    }
+    .ThreeSixteenOffice {
+        margin: 20px auto;
+    }
+    .CreativeFormProduction p {
+        opacity: 0.1;
+        display: none;
+    }
+    
+    .CreativeFormGHInner{
+        margin: 10px 20px;
+        max-width: 260%;
+        top: 300px;
+        right: 230px;
+        min-height: 800px
+    }
+    #Glimpse  {
+        margin: 220px auto;
+    }
+    .CreativeFormBanner{
+        margin: 0px 0px 0px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .Gallery_logo {
+        width: 150px;
+        height: auto;
+        position: relative;
+        top: 130px;
+    }
+}

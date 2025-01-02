@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    min-height: 10vh;
+    background-image: linear-gradient(to right, #1b1b1b 20%, #585858 80%);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+header nav .logo img{
+    max-width: 10vw;
+    max-height: 10vh;
+    cursor: pointer;
+    /* transition: 0.5s ease-in-out; */
+}
+header nav .logo {
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+header nav .logo:hover {
+    transform: scale(1.1);
+}
+
+.sec{
+    max-height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #585858;
+    padding: 40px;
+}
+.sec #head {
+    font-size: 2.8rem;
+    color: wheat;
+}
+
+.sec_2 {
+    width: 100%;
+    min-height: 30vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec_2 .product {
+    min-width: 50vw;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 50px;
+    border: 3px groove #80683c;
+    border-radius: 10px;
+    font-size: 1.8rem;
+}
+.sec_2 .product img {
+    min-width: 80px;
+    max-height: 80px;
+}
+
+
+.sec_3 {
+    max-width: 500px;
+    min-height: 30vh;
+    background-color: #1b1b1b;
+    padding: 20px;
+    font-size: 1.7rem;
+    color: wheat;
+    border-radius: 10px;
+}
+
+.sec_3 .cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+.sec_3 .cont-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sec_3 .cont-btn button {
+    height: 5vh;
+    border-radius: 20px;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: start;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    width: 100%;
+    background-color: #dedeb3;
+    color: black;
+}
+.sec_3 .cont-btn button:hover {
+    background-color: black;
+    color: wheat;
+}
